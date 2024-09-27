@@ -12,12 +12,14 @@ PowerBIClient Client;
 
 try
 {
+    const string testVariable = "e55532a9-0e22-45c1-b704-246c02daf3dd";
+
     #region Power BI Embedded Auth
     IConfidentialClientApplication daemonClient;
 
-    daemonClient = ConfidentialClientApplicationBuilder.Create("e55532a9-0e22-45c1-b704-246c02daf3dd")
-                .WithAuthority("https://login.microsoftonline.com/e55532a9-0e22-45c1-b704-246c02daf3dd/v2.0")
-                .WithClientSecret("e55532a9-0e22-45c1-b704-246c02daf3dd")
+    daemonClient = ConfidentialClientApplicationBuilder.Create(testVariable)
+                .WithAuthority(Path.Combine("https://login.microsoftonline.com/", testVariable, "/v2.0"))
+                .WithClientSecret(testVariable)
                 .Build();
 
     AuthenticationResult authResult =
@@ -27,16 +29,15 @@ try
     Client = new PowerBIClient(new Uri("https://api.powerbi.com/"), tokenCredentials);
     #endregion
 
-    Guid reportId = Guid.Parse("e55532a9-0e22-45c1-b704-246c02daf3dd");
-    Guid groupId = Guid.Parse("e55532a9-0e22-45c1-b704-246c02daf3dd");
+    Guid reportId = Guid.Parse(testVariable);
+    Guid groupId = Guid.Parse(testVariable);
     FileFormat format = FileFormat.PDF;
 
     const int c_maxNumberOfRetries = 3; /* Can be set to any desired number */
     const int c_secToMillisec = 1000;
-    const int timeOutInMinutes = 5;
     const int pollingtimeOutInMinutes = 5;
 
-    Export export = null;
+    Export? export = null;
     int retryAttempt = 1;
     do
     {
@@ -134,14 +135,14 @@ async Task<string> PostExportRequest(
     return export.Id;
 }
 
-async Task<HttpOperationResponse<Export>> PollExportRequest(
+async Task<HttpOperationResponse<Export>?> PollExportRequest(
     Guid reportId,
     Guid groupId,
     string exportId /* Get from the PostExportRequest response */,
     int timeOutInMinutes)
 {
-    HttpOperationResponse<Export> httpMessage = null;
-    Export exportStatus = null;
+    HttpOperationResponse<Export>? httpMessage = null;
+    Export? exportStatus = null;
     DateTime startTime = DateTime.UtcNow;
     const int c_secToMillisec = 1000;
     do
