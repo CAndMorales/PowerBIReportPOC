@@ -1,0 +1,1 @@
+C:\dev\PowerBIEmbeddedReport\.sonarqube\out\3
