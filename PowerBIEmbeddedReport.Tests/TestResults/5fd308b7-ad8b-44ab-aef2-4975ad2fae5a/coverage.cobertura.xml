@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.13699999999999998" branch-rate="0.07690000000000001" version="1.9" timestamp="1728073079" lines-covered="17" lines-valid="124" branches-covered="2" branches-valid="26">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="PowerBIEmbeddedReport" line-rate="0.13699999999999998" branch-rate="0.07690000000000001" complexity="31">
+      <classes>
+        <class name="PowerBIEmbeddedReport.Main.Program/&lt;Main&gt;d__0" filename="dev\PowerBIEmbeddedReport\PowerBIEmbeddedReport\Program.cs" line-rate="0" branch-rate="0" complexity="12">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="12">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="788" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="60" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="819" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="64" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="865" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="69" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="1090" type="jump" coverage="0%" />
+                    <condition number="1058" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="79" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="1125" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="80" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="84" hits="0" branch="False" />
+                <line number="86" hits="0" branch="False" />
+                <line number="87" hits="0" branch="False" />
+                <line number="89" hits="0" branch="False" />
+                <line number="92" hits="0" branch="False" />
+                <line number="93" hits="0" branch="False" />
+                <line number="94" hits="0" branch="False" />
+                <line number="95" hits="0" branch="False" />
+                <line number="97" hits="0" branch="False" />
+                <line number="98" hits="0" branch="False" />
+                <line number="99" hits="0" branch="False" />
+                <line number="100" hits="0" branch="False" />
+                <line number="101" hits="0" branch="False" />
+                <line number="102" hits="0" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="104" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="788" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="60" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="819" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="64" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="865" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="69" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="1090" type="jump" coverage="0%" />
+                <condition number="1058" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="79" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="1125" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="80" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="84" hits="0" branch="False" />
+            <line number="86" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="92" hits="0" branch="False" />
+            <line number="93" hits="0" branch="False" />
+            <line number="94" hits="0" branch="False" />
+            <line number="95" hits="0" branch="False" />
+            <line number="97" hits="0" branch="False" />
+            <line number="98" hits="0" branch="False" />
+            <line number="99" hits="0" branch="False" />
+            <line number="100" hits="0" branch="False" />
+            <line number="101" hits="0" branch="False" />
+            <line number="102" hits="0" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="104" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="PowerBIEmbeddedReport.Main.PowerBIExportService" filename="dev\PowerBIEmbeddedReport\PowerBIEmbeddedReport\Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Microsoft.PowerBI.Api.PowerBIClient)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="111" hits="0" branch="False" />
+                <line number="112" hits="0" branch="False" />
+                <line number="113" hits="0" branch="False" />
+                <line number="114" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="111" hits="0" branch="False" />
+            <line number="112" hits="0" branch="False" />
+            <line number="113" hits="0" branch="False" />
+            <line number="114" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="PowerBIEmbeddedReport.Main.PowerBIExportService/FileService" filename="dev\PowerBIEmbeddedReport\PowerBIEmbeddedReport\Program.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="FileExists" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="203" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="ReadAllText" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="204" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="203" hits="0" branch="False" />
+            <line number="204" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="PowerBIEmbeddedReport.Main.PowerBIExportService/&lt;GetExportedFile&gt;d__4" filename="dev\PowerBIEmbeddedReport\PowerBIEmbeddedReport\Program.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="187" hits="0" branch="False" />
+                <line number="188" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="42" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="189" hits="0" branch="False" />
+                <line number="191" hits="0" branch="False" />
+                <line number="192" hits="0" branch="False" />
+                <line number="193" hits="0" branch="False" />
+                <line number="194" hits="0" branch="False" />
+                <line number="195" hits="0" branch="False" />
+                <line number="196" hits="0" branch="False" />
+                <line number="198" hits="0" branch="False" />
+                <line number="199" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="187" hits="0" branch="False" />
+            <line number="188" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="42" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="189" hits="0" branch="False" />
+            <line number="191" hits="0" branch="False" />
+            <line number="192" hits="0" branch="False" />
+            <line number="193" hits="0" branch="False" />
+            <line number="194" hits="0" branch="False" />
+            <line number="195" hits="0" branch="False" />
+            <line number="196" hits="0" branch="False" />
+            <line number="198" hits="0" branch="False" />
+            <line number="199" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="PowerBIEmbeddedReport.Main.PowerBIExportService/&lt;PollExportRequest&gt;d__3" filename="dev\PowerBIEmbeddedReport\PowerBIEmbeddedReport\Program.cs" line-rate="0" branch-rate="0" complexity="10">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="149" hits="0" branch="False" />
+                <line number="150" hits="0" branch="False" />
+                <line number="151" hits="0" branch="False" />
+                <line number="152" hits="0" branch="False" />
+                <line number="155" hits="0" branch="False" />
+                <line number="156" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="94" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="157" hits="0" branch="False" />
+                <line number="159" hits="0" branch="False" />
+                <line number="163" hits="0" branch="False" />
+                <line number="164" hits="0" branch="False" />
+                <line number="167" hits="0" branch="False" />
+                <line number="168" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="368" type="jump" coverage="0%" />
+                    <condition number="400" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="169" hits="0" branch="False" />
+                <line number="172" hits="0" branch="False" />
+                <line number="173" hits="0" branch="False" />
+                <line number="174" hits="0" branch="False" />
+                <line number="175" hits="0" branch="False" />
+                <line number="176" hits="0" branch="False" />
+                <line number="178" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="644" type="jump" coverage="0%" />
+                    <condition number="609" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="180" hits="0" branch="False" />
+                <line number="181" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="149" hits="0" branch="False" />
+            <line number="150" hits="0" branch="False" />
+            <line number="151" hits="0" branch="False" />
+            <line number="152" hits="0" branch="False" />
+            <line number="155" hits="0" branch="False" />
+            <line number="156" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="94" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="157" hits="0" branch="False" />
+            <line number="159" hits="0" branch="False" />
+            <line number="163" hits="0" branch="False" />
+            <line number="164" hits="0" branch="False" />
+            <line number="167" hits="0" branch="False" />
+            <line number="168" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="368" type="jump" coverage="0%" />
+                <condition number="400" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="169" hits="0" branch="False" />
+            <line number="172" hits="0" branch="False" />
+            <line number="173" hits="0" branch="False" />
+            <line number="174" hits="0" branch="False" />
+            <line number="175" hits="0" branch="False" />
+            <line number="176" hits="0" branch="False" />
+            <line number="178" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="644" type="jump" coverage="0%" />
+                <condition number="609" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="180" hits="0" branch="False" />
+            <line number="181" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="PowerBIEmbeddedReport.Main.PowerBIExportService/&lt;PostExportRequest&gt;d__2" filename="dev\PowerBIEmbeddedReport\PowerBIEmbeddedReport\Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="122" hits="0" branch="False" />
+                <line number="123" hits="0" branch="False" />
+                <line number="124" hits="0" branch="False" />
+                <line number="125" hits="0" branch="False" />
+                <line number="126" hits="0" branch="False" />
+                <line number="127" hits="0" branch="False" />
+                <line number="128" hits="0" branch="False" />
+                <line number="129" hits="0" branch="False" />
+                <line number="131" hits="0" branch="False" />
+                <line number="132" hits="0" branch="False" />
+                <line number="133" hits="0" branch="False" />
+                <line number="134" hits="0" branch="False" />
+                <line number="135" hits="0" branch="False" />
+                <line number="138" hits="0" branch="False" />
+                <line number="141" hits="0" branch="False" />
+                <line number="142" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="122" hits="0" branch="False" />
+            <line number="123" hits="0" branch="False" />
+            <line number="124" hits="0" branch="False" />
+            <line number="125" hits="0" branch="False" />
+            <line number="126" hits="0" branch="False" />
+            <line number="127" hits="0" branch="False" />
+            <line number="128" hits="0" branch="False" />
+            <line number="129" hits="0" branch="False" />
+            <line number="131" hits="0" branch="False" />
+            <line number="132" hits="0" branch="False" />
+            <line number="133" hits="0" branch="False" />
+            <line number="134" hits="0" branch="False" />
+            <line number="135" hits="0" branch="False" />
+            <line number="138" hits="0" branch="False" />
+            <line number="141" hits="0" branch="False" />
+            <line number="142" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="PowerBIEmbeddedReport.Main.FileReader" filename="dev\PowerBIEmbeddedReport\PowerBIEmbeddedReport\Program.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Test" signature="(System.IO.TextReader,System.IO.TextWriter)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="224" hits="2" branch="False" />
+                <line number="225" hits="2" branch="False" />
+                <line number="226" hits="2" branch="False" />
+                <line number="229" hits="2" branch="False" />
+                <line number="231" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="46" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="232" hits="1" branch="False" />
+                <line number="233" hits="1" branch="False" />
+                <line number="234" hits="1" branch="False" />
+                <line number="235" hits="1" branch="False" />
+                <line number="237" hits="1" branch="False" />
+                <line number="238" hits="1" branch="False" />
+                <line number="239" hits="1" branch="False" />
+                <line number="240" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(PowerBIEmbeddedReport.Main.PowerBIExportService/FileService)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="218" hits="2" branch="False" />
+                <line number="219" hits="2" branch="False" />
+                <line number="220" hits="2" branch="False" />
+                <line number="221" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="224" hits="2" branch="False" />
+            <line number="225" hits="2" branch="False" />
+            <line number="226" hits="2" branch="False" />
+            <line number="229" hits="2" branch="False" />
+            <line number="231" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="46" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="232" hits="1" branch="False" />
+            <line number="233" hits="1" branch="False" />
+            <line number="234" hits="1" branch="False" />
+            <line number="235" hits="1" branch="False" />
+            <line number="237" hits="1" branch="False" />
+            <line number="238" hits="1" branch="False" />
+            <line number="239" hits="1" branch="False" />
+            <line number="240" hits="2" branch="False" />
+            <line number="218" hits="2" branch="False" />
+            <line number="219" hits="2" branch="False" />
+            <line number="220" hits="2" branch="False" />
+            <line number="221" hits="2" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
