@@ -11,7 +11,7 @@ using static PowerBIEmbeddedReport.Main.PowerBIExportService;
 
 namespace PowerBIEmbeddedReport.Main;
 
-class Program
+static class Program
 {
     static async Task Main(string[] args)
     {
@@ -20,12 +20,14 @@ class Program
         try
         {
             const string testVariable = "e55532a9-0e22-45c1-b704-246c02daf3dd";
+            const string baseUrl = "login.microsoftonline.com";
+            const string powerBi = "api.powerbi.com";
 
             #region Power BI Embedded Auth
             IConfidentialClientApplication daemonClient;
 
             daemonClient = ConfidentialClientApplicationBuilder.Create(testVariable)
-                        .WithAuthority(Path.Combine("https://login.microsoftonline.com/", testVariable, "/v2.0"))
+                        .WithAuthority(Path.Combine("https://", baseUrl, "/", testVariable, "/v2.0"))
                         .WithClientSecret(testVariable)
                         .Build();
 
@@ -33,7 +35,7 @@ class Program
                         await daemonClient.AcquireTokenForClient(new[] { "https://analysis.windows.net/powerbi/api/.default" }).ExecuteAsync();
 
             var tokenCredentials = new TokenCredentials(authResult.AccessToken, "Bearer");
-            Client = new PowerBIClient(new Uri("https://api.powerbi.com/"), tokenCredentials);
+            Client = new PowerBIClient(new Uri(Path.Combine("https://", powerBi, "/")), tokenCredentials);
 
             // Create an instance of PowerBIExportService
             var exportService = new PowerBIExportService(Client);
